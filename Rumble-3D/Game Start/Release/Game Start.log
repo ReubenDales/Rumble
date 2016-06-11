@@ -1,0 +1,36 @@
+﻿  Main.cpp
+c:\users\harril38\desktop\rumble-assignment-2--master\game start\QuadTree.h(21): warning C4099: 'Enemy': type name first seen using 'class' now seen using 'struct'
+  c:\users\harril38\desktop\rumble-assignment-2--master\game start\Character.h(161): note: see declaration of 'Enemy'
+Main.cpp(263): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+Main.cpp(286): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+Main.cpp(426): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+Main.cpp(467): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+Main.cpp(481): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Main.cpp(483): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Main.cpp(554): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+Main.cpp(555): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+Main.cpp(555): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Main.cpp(556): warning C4305: 'argument': truncation from 'double' to 'float'
+Main.cpp(576): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Main.cpp(651): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Main.cpp(657): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Main.cpp(927): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Main.cpp(953): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+Main.cpp(961): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+Main.cpp(976): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+Main.cpp(982): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+Main.cpp(1101): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+Main.cpp(1106): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+Main.cpp(1144): warning C4018: '<': signed/unsigned mismatch
+Main.cpp(1173): warning C4018: '>=': signed/unsigned mismatch
+Main.cpp(1177): warning C4018: '<': signed/unsigned mismatch
+Main.cpp(1187): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+Main.cpp(1197): warning C4018: '<': signed/unsigned mismatch
+Main.cpp(1236): warning C4018: '<': signed/unsigned mismatch
+Main.cpp(1253): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Main.cpp(1296): warning C4018: '<': signed/unsigned mismatch
+Main.cpp(1508): warning C4305: 'argument': truncation from 'double' to 'float'
+Main.obj : error LNK2001: unresolved external symbol __imp__glVertex3f@12
+Main.obj : error LNK2001: unresolved external symbol __imp__glEnd@0
+Main.obj : error LNK2001: unresolved external symbol __imp__glBegin@4
+C:\Users\harril38\Desktop\Rumble-Assignment-2--master\Release\Game Start.exe : fatal error LNK1120: 3 unresolved externals

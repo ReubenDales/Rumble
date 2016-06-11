@@ -1,0 +1,23 @@
+﻿  Main.cpp
+c:\users\harril38\desktop\rumble-assignment-2--master\game start\quadtree.h(21): warning C4099: 'Enemy': type name first seen using 'class' now seen using 'struct'
+  c:\users\harril38\desktop\rumble-assignment-2--master\game start\character.h(161): note: see declaration of 'Enemy'
+c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(320): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(461): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(494): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(562): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(576): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(578): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(649): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(650): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(650): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(651): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(671): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(746): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(752): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(1026): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(1680): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(755): warning C4101: 'volume': unreferenced local variable
+c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(675): warning C4101: 'eLoop': unreferenced local variable
+c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(1544): warning C4700: uninitialized local variable 'currentStore' used
+c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(1557): warning C4700: uninitialized local variable 'storeType' used
+  Game Start.vcxproj -> C:\Users\harril38\Desktop\Rumble-Assignment-2--master\Debug\Game Start.exe

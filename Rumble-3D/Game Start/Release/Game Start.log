@@ -1,36 +1,87 @@
-﻿  Main.cpp
-c:\users\harril38\desktop\rumble-assignment-2--master\game start\QuadTree.h(21): warning C4099: 'Enemy': type name first seen using 'class' now seen using 'struct'
-  c:\users\harril38\desktop\rumble-assignment-2--master\game start\Character.h(161): note: see declaration of 'Enemy'
-Main.cpp(263): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
-Main.cpp(286): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-Main.cpp(426): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-Main.cpp(467): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
-Main.cpp(481): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-Main.cpp(483): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-Main.cpp(554): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
-Main.cpp(555): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-Main.cpp(555): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-Main.cpp(556): warning C4305: 'argument': truncation from 'double' to 'float'
-Main.cpp(576): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-Main.cpp(651): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-Main.cpp(657): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-Main.cpp(927): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-Main.cpp(953): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-Main.cpp(961): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-Main.cpp(976): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-Main.cpp(982): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-Main.cpp(1101): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
-Main.cpp(1106): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
-Main.cpp(1144): warning C4018: '<': signed/unsigned mismatch
-Main.cpp(1173): warning C4018: '>=': signed/unsigned mismatch
-Main.cpp(1177): warning C4018: '<': signed/unsigned mismatch
-Main.cpp(1187): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-Main.cpp(1197): warning C4018: '<': signed/unsigned mismatch
-Main.cpp(1236): warning C4018: '<': signed/unsigned mismatch
-Main.cpp(1253): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-Main.cpp(1296): warning C4018: '<': signed/unsigned mismatch
-Main.cpp(1508): warning C4305: 'argument': truncation from 'double' to 'float'
-Main.obj : error LNK2001: unresolved external symbol __imp__glVertex3f@12
-Main.obj : error LNK2001: unresolved external symbol __imp__glEnd@0
-Main.obj : error LNK2001: unresolved external symbol __imp__glBegin@4
-C:\Users\harril38\Desktop\Rumble-Assignment-2--master\Release\Game Start.exe : fatal error LNK1120: 3 unresolved externals
+﻿Build started 17/06/2016 9:40:45 p.m..
+     1>Project "C:\Users\User\Desktop\Uni\Semester 1 - 2016\ISCG7441 - Advanced Game Programming\Assignment 2\Rumble 3D\Rumble\Rumble-3D\Game Start\Game Start.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"D:\SFML-2.3.2\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Effects.cpp Main.cpp projectile.cpp
+         Effects.cpp
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\QuadTree.h(21): warning C4099: 'Enemy': type name first seen using 'class' now seen using 'struct'
+         c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\Character.h(161): note: see declaration of 'Enemy'
+     1>Effects.cpp(39): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+     1>Effects.cpp(47): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+     1>Effects.cpp(49): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+     1>Effects.cpp(54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>Effects.cpp(143): warning C4305: '=': truncation from 'double' to 'float'
+     1>Effects.cpp(147): warning C4305: '=': truncation from 'double' to 'float'
+     1>Effects.cpp(154): warning C4305: '=': truncation from 'double' to 'float'
+     1>Effects.cpp(158): warning C4305: '=': truncation from 'double' to 'float'
+     1>Effects.cpp(163): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>Effects.cpp(178): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+     1>Effects.cpp(183): warning C4305: '-=': truncation from 'double' to 'float'
+     1>Effects.cpp(184): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>Effects.cpp(204): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+     1>Effects.cpp(209): warning C4305: '+=': truncation from 'double' to 'float'
+     1>Effects.cpp(210): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>Effects.cpp(312): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+     1>Effects.cpp(313): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+     1>Effects.cpp(331): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+     1>Effects.cpp(382): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>Effects.cpp(385): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+     1>Effects.cpp(407): warning C4244: '=': conversion from 'float' to 'sf::Uint8', possible loss of data
+     1>Effects.cpp(444): warning C4305: '-=': truncation from 'double' to 'float'
+     1>Effects.cpp(446): warning C4244: '=': conversion from 'float' to 'sf::Uint8', possible loss of data
+     1>Effects.cpp(453): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+     1>Effects.cpp(457): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>Effects.cpp(458): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+     1>Effects.cpp(538): warning C4244: '=': conversion from 'float' to 'sf::Uint8', possible loss of data
+         Main.cpp
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\QuadTree.h(21): warning C4099: 'Enemy': type name first seen using 'class' now seen using 'struct'
+         c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\Character.h(161): note: see declaration of 'Enemy'
+     1>Main.cpp(320): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>Main.cpp(461): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>Main.cpp(494): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>Main.cpp(562): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+     1>Main.cpp(576): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(578): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(649): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+     1>Main.cpp(650): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>Main.cpp(650): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(651): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>Main.cpp(671): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(746): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(752): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(1026): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(1680): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>Main.cpp(755): warning C4101: 'volume': unreferenced local variable
+     1>Main.cpp(675): warning C4101: 'eLoop': unreferenced local variable
+         projectile.cpp
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\QuadTree.h(21): warning C4099: 'Enemy': type name first seen using 'class' now seen using 'struct'
+         c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\Character.h(161): note: see declaration of 'Enemy'
+     1>projectile.cpp(53): warning C4018: '<': signed/unsigned mismatch
+     1>projectile.cpp(111): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+     1>projectile.cpp(116): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Desktop\Uni\Semester 1 - 2016\ISCG7441 - Advanced Game Programming\Assignment 2\Rumble 3D\Rumble\Rumble-3D\Release\Game Start.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\SFML-2.3.2\lib" "sfml-graphics.lib" "sfml-window.lib" "sfml-system.lib" "sfml-audio.lib" "sfml-main.lib" "sfml-graphics.lib" "sfml-window.lib" "sfml-system.lib" "sfml-main.lib" "sfml-audio.lib" opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\User\Desktop\Uni\Semester 1 - 2016\ISCG7441 - Advanced Game Programming\Assignment 2\Rumble 3D\Rumble\Rumble-3D\Release\Game Start.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Desktop\Uni\Semester 1 - 2016\ISCG7441 - Advanced Game Programming\Assignment 2\Rumble 3D\Rumble\Rumble-3D\Release\Game Start.lib" /MACHINE:X86 /SAFESEH Release\Assets.obj
+         Release\Character.obj
+         Release\ChatBox.obj
+         Release\Coin.obj
+         Release\Effects.obj
+         Release\Enemy.obj
+         Release\Hud.obj
+         Release\Main.obj
+         Release\Map.obj
+         Release\menu.obj
+         Release\Particle.obj
+         Release\Player.obj
+         Release\projectile.obj
+         Release\QuadTree.obj
+         Release\Store.obj
+         Generating code
+         0 of 649 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           0 functions had inline decision re-evaluated but remain unchanged
+         Finished generating code
+         Game Start.vcxproj -> C:\Users\User\Desktop\Uni\Semester 1 - 2016\ISCG7441 - Advanced Game Programming\Assignment 2\Rumble 3D\Rumble\Rumble-3D\Release\Game Start.exe
+     1>Done Building Project "C:\Users\User\Desktop\Uni\Semester 1 - 2016\ISCG7441 - Advanced Game Programming\Assignment 2\Rumble 3D\Rumble\Rumble-3D\Game Start\Game Start.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.97

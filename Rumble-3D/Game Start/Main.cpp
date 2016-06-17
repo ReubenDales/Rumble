@@ -1,9 +1,10 @@
 /*
 *	Main.cpp
-*	Rumble
+*	Rumble 3D
 *
 *	Created by: Reuben Dales, Lance Donnell, Lance Harris, Josh Prow.
-*	Dated: 20 October 2015
+*	Created: 20 October 2015
+*	Latest version: 11 June 2016
 *
 */
 

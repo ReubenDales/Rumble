@@ -1,23 +1,158 @@
-﻿  Main.cpp
-c:\users\harril38\desktop\rumble-assignment-2--master\game start\quadtree.h(21): warning C4099: 'Enemy': type name first seen using 'class' now seen using 'struct'
-  c:\users\harril38\desktop\rumble-assignment-2--master\game start\character.h(161): note: see declaration of 'Enemy'
-c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(320): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(461): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(494): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(562): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
-c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(576): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(578): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(649): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
-c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(650): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(650): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(651): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(671): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(746): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(752): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(1026): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(1680): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(755): warning C4101: 'volume': unreferenced local variable
-c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(675): warning C4101: 'eLoop': unreferenced local variable
-c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(1544): warning C4700: uninitialized local variable 'currentStore' used
-c:\users\harril38\desktop\rumble-assignment-2--master\game start\main.cpp(1557): warning C4700: uninitialized local variable 'storeType' used
-  Game Start.vcxproj -> C:\Users\harril38\Desktop\Rumble-Assignment-2--master\Debug\Game Start.exe
+﻿Build started 17/06/2016 9:44:53 p.m..
+     1>Project "C:\Users\User\Desktop\Uni\Semester 1 - 2016\ISCG7441 - Advanced Game Programming\Assignment 2\Rumble 3D\Rumble\Rumble-3D\Game Start\Game Start.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"D:\SFML-2.3.2\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Assets.cpp Character.cpp ChatBox.cpp Coin.cpp Effects.cpp Enemy.cpp Hud.cpp Main.cpp Map.cpp menu.cpp Particle.cpp Player.cpp projectile.cpp QuadTree.cpp Store.cpp
+         Store.cpp
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\store.cpp(43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\store.cpp(61): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\store.cpp(62): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\store.cpp(68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\store.cpp(69): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\store.cpp(72): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\store.cpp(73): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\store.cpp(79): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\store.cpp(80): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\store.cpp(89): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\store.cpp(118): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\store.cpp(123): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\store.cpp(127): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+         QuadTree.cpp
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\quadtree.h(21): warning C4099: 'Enemy': type name first seen using 'class' now seen using 'struct'
+         c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\character.h(161): note: see declaration of 'Enemy'
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\quadtree.cpp(73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\quadtree.cpp(87): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+         projectile.cpp
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\quadtree.h(21): warning C4099: 'Enemy': type name first seen using 'class' now seen using 'struct'
+         c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\character.h(161): note: see declaration of 'Enemy'
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\projectile.cpp(53): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\projectile.cpp(111): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\projectile.cpp(116): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+         Player.cpp
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\player.cpp(80): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+         Particle.cpp
+         menu.cpp
+         Map.cpp
+         Main.cpp
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\quadtree.h(21): warning C4099: 'Enemy': type name first seen using 'class' now seen using 'struct'
+         c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\character.h(161): note: see declaration of 'Enemy'
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\main.cpp(321): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\main.cpp(462): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\main.cpp(495): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\main.cpp(563): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\main.cpp(577): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\main.cpp(579): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\main.cpp(650): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\main.cpp(651): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\main.cpp(651): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\main.cpp(652): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\main.cpp(672): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\main.cpp(747): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\main.cpp(753): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\main.cpp(1027): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\main.cpp(1681): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\main.cpp(756): warning C4101: 'volume': unreferenced local variable
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\main.cpp(676): warning C4101: 'eLoop': unreferenced local variable
+         Hud.cpp
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\hud.cpp(22): warning C4305: '=': truncation from 'double' to 'float'
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\hud.cpp(39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\hud.cpp(44): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\hud.cpp(47): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\hud.cpp(49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\hud.cpp(69): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\hud.cpp(126): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\hud.cpp(136): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\hud.cpp(150): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\hud.cpp(207): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\hud.cpp(212): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\hud.cpp(217): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\hud.cpp(222): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\hud.cpp(232): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\hud.cpp(236): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\hud.cpp(240): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\hud.cpp(291): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\hud.cpp(321): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\hud.cpp(398): warning C4305: '+=': truncation from 'double' to 'float'
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\hud.cpp(455): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\hud.cpp(460): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+         Enemy.cpp
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\enemy.cpp(36): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\enemy.cpp(54): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\enemy.cpp(55): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+         Effects.cpp
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\quadtree.h(21): warning C4099: 'Enemy': type name first seen using 'class' now seen using 'struct'
+         c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\character.h(161): note: see declaration of 'Enemy'
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\effects.cpp(39): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\effects.cpp(47): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\effects.cpp(49): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\effects.cpp(54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\effects.cpp(143): warning C4305: '=': truncation from 'double' to 'float'
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\effects.cpp(147): warning C4305: '=': truncation from 'double' to 'float'
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\effects.cpp(154): warning C4305: '=': truncation from 'double' to 'float'
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\effects.cpp(158): warning C4305: '=': truncation from 'double' to 'float'
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\effects.cpp(163): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\effects.cpp(178): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\effects.cpp(183): warning C4305: '-=': truncation from 'double' to 'float'
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\effects.cpp(184): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\effects.cpp(204): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\effects.cpp(209): warning C4305: '+=': truncation from 'double' to 'float'
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\effects.cpp(210): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\effects.cpp(312): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\effects.cpp(313): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\effects.cpp(331): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\effects.cpp(382): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\effects.cpp(385): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\effects.cpp(407): warning C4244: '=': conversion from 'float' to 'sf::Uint8', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\effects.cpp(444): warning C4305: '-=': truncation from 'double' to 'float'
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\effects.cpp(446): warning C4244: '=': conversion from 'float' to 'sf::Uint8', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\effects.cpp(453): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\effects.cpp(457): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\effects.cpp(458): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\effects.cpp(538): warning C4244: '=': conversion from 'float' to 'sf::Uint8', possible loss of data
+         Coin.cpp
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\coin.cpp(29): warning C4305: 'argument': truncation from 'double' to 'float'
+         ChatBox.cpp
+         Character.cpp
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\character.cpp(21): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\character.cpp(25): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\character.cpp(101): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\character.cpp(102): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\character.cpp(108): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\character.cpp(128): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\character.cpp(148): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\character.cpp(168): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\character.cpp(203): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\character.cpp(204): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\character.cpp(210): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\character.cpp(230): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\character.cpp(250): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\character.cpp(270): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\character.cpp(343): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+         Assets.cpp
+         Generating Code...
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\main.cpp(1545): warning C4700: uninitialized local variable 'currentStore' used
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\main.cpp(1558): warning C4700: uninitialized local variable 'storeType' used
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\quadtree.cpp(95): warning C4715: 'QuadTree::insert': not all control paths return a value
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\store.cpp(323): warning C4715: 'Store::purchaseItem': not all control paths return a value
+     1>c:\users\user\desktop\uni\semester 1 - 2016\iscg7441 - advanced game programming\assignment 2\rumble 3d\rumble\rumble-3d\game start\store.cpp(354): warning C4715: 'Store::getInfo': not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Desktop\Uni\Semester 1 - 2016\ISCG7441 - Advanced Game Programming\Assignment 2\Rumble 3D\Rumble\Rumble-3D\Debug\Game Start.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\SFML-2.3.2\lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-audio-d.lib" opengl32.lib "sfml-graphics.lib" "sfml-window.lib" "sfml-system.lib" "sfml-main.lib" "sfml-audio.lib" opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\User\Desktop\Uni\Semester 1 - 2016\ISCG7441 - Advanced Game Programming\Assignment 2\Rumble 3D\Rumble\Rumble-3D\Debug\Game Start.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Desktop\Uni\Semester 1 - 2016\ISCG7441 - Advanced Game Programming\Assignment 2\Rumble 3D\Rumble\Rumble-3D\Debug\Game Start.lib" /MACHINE:X86 Debug\Assets.obj
+         Debug\Character.obj
+         Debug\ChatBox.obj
+         Debug\Coin.obj
+         Debug\Effects.obj
+         Debug\Enemy.obj
+         Debug\Hud.obj
+         Debug\Main.obj
+         Debug\Map.obj
+         Debug\menu.obj
+         Debug\Particle.obj
+         Debug\Player.obj
+         Debug\projectile.obj
+         Debug\QuadTree.obj
+         Debug\Store.obj
+         Game Start.vcxproj -> C:\Users\User\Desktop\Uni\Semester 1 - 2016\ISCG7441 - Advanced Game Programming\Assignment 2\Rumble 3D\Rumble\Rumble-3D\Debug\Game Start.exe
+     1>Done Building Project "C:\Users\User\Desktop\Uni\Semester 1 - 2016\ISCG7441 - Advanced Game Programming\Assignment 2\Rumble 3D\Rumble\Rumble-3D\Game Start\Game Start.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.96
